@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Library Services - SK Ulu Lubai</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="logo.png" type="image/png" />
+  <style>
+    .services-section {
+      padding: 40px 20px;
+      background-color: #ffffff;
+      text-align: center;
+    }
+
+    .services-section h2 {
+      color: #0073b1;
+      margin-bottom: 20px;
+    }
+
+    .service-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .service-box {
+      background-color: #e8f4fa;
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+      text-align: left;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .service-box h3 {
+      color: #0073b1;
+      margin-bottom: 10px;
+    }
+
+    .service-box ul {
+      padding-left: 20px;
+    }
+
+    .service-box li {
+      margin-bottom: 8px;
+    }
+
+    .form-section {
+      padding: 40px 20px;
+      background-color: #ffffff;
+      max-width: 600px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .form-section h2 {
+      color: #0073b1;
+      margin-bottom: 20px;
+    }
+
+    form {
+      text-align: left;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    button {
+      background-color: #e6b800;
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #d4a700;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+
+    <div class="dropdown">
+      <button class="dropbtn">Information ▼</button>
+      <div class="dropdown-content">
+        <a href="about.html">About Us</a>
+        <a href="teachers.html">Teachers</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="service.html">Services</a>
+      </div>
+    </div>
+
+    <a href="contact.html#contact">Contact</a>
+    <a href="https://www.facebook.com/groups/skululubai/" target="_blank">Facebook</a>
+  </nav>
+
+  <!-- Header -->
+  <header id="top">
+    <img src="logo.png" alt="School Logo" class="logo" />
+    <h1>SK Ulu Lubai Resource Center</h1>
+  </header>
+
+  <!-- Services Section -->
+  <section class="services-section">
+    <h2>School Library Services</h2>
+
+    <div class="service-grid">
+
+      <div class="service-box">
+        <h3>📚 Book Borrowing</h3>
+        <ul>
+          <li>• Maximum 2 books per student</li>
+          <li>• Loan period: 1 week</li>
+          <li>• Can be renewed if no reservation</li>
+          <li>• Fines for damaged or lost books</li>
+        </ul>
+      </div>
+
+      <div class="service-box">
+        <h3>📖 Library Facilities</h3>
+        <ul>
+          <li>• Book racks by level</li>
+          <li>• Reading corner</li>
+          <li>• Computers for research</li>
+          <li>• Storage lockers</li>
+        </ul>
+      </div>
+
+      <div class="service-box">
+        <h3>📝 User Rules</h3>
+        <ul>
+          <li>• Be polite and quiet</li>
+          <li>• No eating or drinking</li>
+          <li>• Keep clean and return books properly</li>
+          <li>• Use computers for learning purposes only</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Book Borrowing Form -->
+  <section class="form-section">
+    <h2>Book Borrowing Request</h2>
+    <p>Please fill in the form below to request a book borrowing (dummy form).</p>
+    <form>
+      <label for="name">Student Name</label>
+      <input type="text" id="name" name="name" placeholder="e.g., Ahmad Ali" required>
+
+      <label for="class">Class</label>
+      <input type="text" id="class" name="class" placeholder="e.g., 6 Excellence" required>
+
+      <label for="book">Book Title</label>
+      <input type="text" id="book" name="book" placeholder="e.g., Local Folktales" required>
+
+      <label for="date-borrow">Borrow Date</label>
+      <input type="date" id="date-borrow" name="date-borrow" required>
+
+      <label for="date-return">Return Date</label>
+      <input type="date" id="date-return" name="date-return" required>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Back to Top Button -->
+  <a href="#top" class="back-to-top">⬆</a>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 SK Ulu Lubai Resource Center</p>
+    <p>
+      <a href="about.html">About Us</a> |
+      <a href="teachers.html">Teachers</a> |
+      <a href="gallery.html">Gallery</a> |
+      <a href="service.html">Services</a> |
+      <a href="contact.html#contact">Contact</a> |
+      <a href="aboutme.html">Developer</a>
+    </p>
+  </footer>
+
+</body>
+</html>

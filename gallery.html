@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery - SK Ulu Lubai</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="logo.png" type="image/png" />
+  <style>
+    .gallery-section {
+      padding: 40px 20px;
+      background-color: #ffffff;
+      text-align: center;
+    }
+
+    .gallery-section h2 {
+      color: #0073b1;
+      margin-bottom: 20px;
+    }
+
+    .gallery-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .gallery-grid img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+
+    <div class="dropdown">
+      <button class="dropbtn">Information ▼</button>
+      <div class="dropdown-content">
+        <a href="about.html">About Us</a>
+        <a href="teachers.html">Teachers</a>
+        <a href="gallery.html">Gallery</a>
+      </div>
+    </div>
+
+    <a href="contact.html#contact">Contact</a>
+    <a href="https://www.facebook.com/groups/skululubai/" target="_blank">Facebook</a>
+  </nav>
+
+  <!-- Header -->
+  <header id="top">
+    <img src="logo.png" alt="School Logo" class="logo" />
+    <h1>SK Ulu Lubai Resource Center</h1>
+  </header>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section">
+    <h2>School Activities Gallery</h2>
+    <div class="gallery-grid">
+      <img src="aktiviti1.jpg" alt="Activity 1">
+      <img src="aktiviti2.jpg" alt="Activity 2">
+      <img src="aktiviti3.jpg" alt="Activity 3">
+      <img src="aktiviti4.jpeg" alt="Activity 4">
+      <img src="aktiviti5.jpeg" alt="Activity 5">
+      <img src="aktiviti6.jpg" alt="Activity 6">
+    </div>
+  </section>
+
+  <!-- Back to Top Button -->
+  <a href="#top" class="back-to-top">⬆</a>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 SK Ulu Lubai Resource Center</p>
+    <p>
+      <a href="about.html">About Us</a> |
+      <a href="teachers.html">Teachers</a> |
+      <a href="gallery.html">Gallery</a> |
+      <a href="contact.html">Contact</a>
+    </p>
+  </footer>
+
+</body>
+</html>
